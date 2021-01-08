@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+ 
+ margin: 0%;
+ 
+}
+ 
+#title{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+   
+}
+
+
+
+
+
+.nbalogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+           
+}
+
+body{
+   background-color: dodgerblue;
+
+}
+
+h1 {
+    font-family: 'Staatliches', cursive;
+    color: black;
+    
+}
+
+#age {
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}
+
+#teams {
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}
+
+#atl{
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}
+#cent{
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}
+#sth{
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}
+
+#nrth{
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}
+#sthw{
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}
+
+#pac{
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}
+
+#text{
+    font-family: 'Montserrat', sans-serif;
+    font-style: medium;
+}

@@ -3,16 +3,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
-</head>
+    <link rel="stylesheet" href="styles.css">
+    
+  </head>
 <body>
-    <h1>NBA BandWagon Form</h1>
+    <div class="borderbox"> 
+  <h1 id="title">NBA BandWagon</h1>
+    <img src="NBA-new-logo.png" width="50%" height="auto" class="nbalogo">
+    
     <!-- THIS IS UPPER TOP -->
     <form>
    <div class="Top"> 
     <label for="fname"> </label> <input type="text" placeholder="First Name"> </label>
     <label for="lname"> </label> <input type="text" placeholder="Last Name"> </label>
-    <label for="age">Select Your Age</label>
-    <select name="age" id="age">
+    <label id="age">Select Your Age</label>
+    <select name="ages">
     <option value="17">17</option>
     <option value="18">18</option>
     <option value="19">19</option>
@@ -36,9 +41,9 @@
     
     <!-- THIS IS UPPER MID -->
      <br>
-    <label for="teams"> Which team are you on right now?  </label>
+    <label id="teams"> Which team are you on right now?  </label>
     <br>
-    <label for="atlntic">Atlantic Region</label>
+    <label for="atl_Brnch" id="atl">Atlantic Region</label>
     <br>
     <select name="team" id="team">
       <option value="Select">Select</option>
@@ -52,7 +57,7 @@
 
      
       <br>
-     <label for="cntral">Central Region</label>
+     <label for="cnt_branch" id="cent">Central Region</label>
      <br>
      <select name="team1" id="team1">
        <br>
@@ -66,7 +71,7 @@
 
 
         <br>
-        <label for="cntral">Southeast Region</label>
+        <label for="sth_branch" id="sth">Southeast Region</label>
         <br>
         <select name="team2" id="team2">
           <br>
@@ -82,7 +87,7 @@
 
 
         <br>
-        <label for="cntral"> Northeast Region</label>
+        <label for="nrth_brnch" id="nrth"> Northwest Region</label>
         <br>
         <select name="team3" id="team3">
           <br>
@@ -96,7 +101,24 @@
 
 
         <br>
-        <label for="cntral"> Pacific Region</label>
+        <label for="south" id="sthw"> Southwest Region</label>
+        <br>
+        <select name="team5" id="team5">
+          <br>
+           <option value="Select">Select</option>
+           <option value="Dallas">Dallas Mavericks</option>
+           <option value="Houston">Houston Rockets</option>
+           <option value="San Antonio">San Antonio Spurs</option>
+           <option value="Memphies">Memphis Grizzlies</option>
+           <option value="New Orleans">New Orleans Pelicans</option>
+        </select>
+
+
+
+
+
+        <br>
+        <label for="pacfc" id="pac"> Pacific Region</label>
         <br>
         <select name="team4" id="team4">
           <br>
@@ -105,19 +127,22 @@
            <option value="Clippers">Los Angeles Clippers</option>
            <option value="Lakers">Los Angeles Lakers</option>
            <option value="Phoenix">Phoenix Suns</option>
-           <option value="Sacramento">Sacramento Kings</option>
+           <option value="Sacramento">Sacramento Kings
+             
+           </option>
         </select>
 
 
+        <br>
+        <label for="reasons" id="text"> Why are you jumping teams: </label>
+        <input type="text"placeholder="State your reasons">
+        <br>
 
 
-
-
-
-
-
-
-     
+     <br>
+        <input class="button" type="submit">
+       
+      </div> 
 
 
 
